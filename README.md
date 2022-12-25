@@ -6,7 +6,7 @@ The challenge consisted on the classification of 12 different time-structure dat
 We ended up acheiving an **accuracy of 75%**, you can check the results [here](https://codalab.lisn.upsaclay.fr/competitions/9056#results).
 
 ## Models details
-For more details about the model check the [Report](report/Report.pdf). Briefly, we used the following techniques:
+For more details about the model check the [Report](ANNDL2 - Report.pdf). Briefly, we used the following techniques:
 1. Building our own sequences using a sliding window function with a window size of 36 and a stride of 12.
 2. Applying RobustScaler which helped in handling the possible presence of outliers
 3. We chose to use simple TCN model with few number of layers, we performed a hyperparameters search to define the structure of the network. 
